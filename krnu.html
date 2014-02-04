@@ -6,11 +6,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
-	<title>Tony Papousek | Home</title>
+	<title>90.3FM KRNU | Lincoln, NE</title>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/krnu.css" type="text/css" media="screen">
     <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/xolonium" rel="stylesheet" type="text/css"/>
     <link rel="stylesheet" href="css/audio.css" />
 
@@ -22,18 +22,12 @@
 	<div class="menu">
 		<div class="container clearfix">
 
-		  <div id="logo" class="grid_5">
-				<h2 id="name"><a href="http://apapousek.github.io">Tony Papousek</a>
-                
-                <button class="play" type="button" id="playBtn"><img src="images/play.svg"/></button>
-				<button class="pause" type="button" id="pauseBtn"><img src="images/pause.svg"/></button>
-                </h2>
+		  <div id="logo" class="grid_5 alpha">
+				<h2 id="name"><a href="http://apapousek.github.io/krnu.html">90.3 KRNU</a></h2>
 			</div>
 			<div id="nav" class="grid_7 omega">
                 <ul class="navigation">
-					<li data-slide="1">Top</li>
-					<li data-slide="2">Parallax Scrolling</li>
-					<li data-slide="3">Links</li>
+					<li data-slide="1">Listen</li>
 					<li data-slide="4">Contact</li>
 				</ul>
 			</div>
@@ -45,61 +39,40 @@
 	<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 
-			<div id="content" class="grid_7">
-				<h1>Hello There</h1>
-				<h2>Ready for liftoff?</h2>
-				<p>This page is used to demo parallax scrolling, HTML5 audio, and jQuery.</p>
-				<p>I'm using the Cool Kitten Framework!</p>
-			</div>
-			<div id="decorative" class="grid_5 omega">
-				<img src="images/spacecore.png">
-                <h2>"I wanna go to space!"	</h2>
-			</div>
-
-		</div>
-	</div>
-
-
-
-	<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
-		<div class="container clearfix">
-
 			<div id="content" class="grid_12">
-				<h1>To the Moon</h1>
-				<h2>Man on the moon, now in ParallaxVision!	</h2>
+				<h1>Listen Online</h1>
 			</div>
-
-		</div>
-	</div>
-
-
-
-	<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
-		<div class="container clearfix">
-
-			<div id="content" class="grid_12">
-				<h1>Links</h1>
-				<h2>To another world.</h2>
-                <p>Or rather, another page</p>
-                <a href="resume.html"><h3>Resume</h3></a>
-                <a href="krnu.html"><h3>KRNU</h3></a>
-                <a href="http://blog.papousek.org/"><h3>Blog</h3></a>
-                <a href="http://makerhours.org/"><h3>Maker Hours</h3></a>
+            
+		  <div id="krnu" class="grid_6 omega">
+                <h2>KRNU</h2>
+                <audio controls><source src="http://129.93.42.12:8000/listen">
+                </audio>	
 			</div>
-		</div>
+			<div id="krnu2" class="grid_6 omega">
+              <h2>KRNU2</h2>
+              <audio controls><source src="http://129.93.42.17:8000/listen">
+                </audio>	
+			</div>
+	  </div>
 	</div>
-
-
 
 	<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
 		<div class="container clearfix">
 
 			<div id="content" class="grid_12">
-				<h1>Make Contact</h1>
-				<h2>Let's Talk</h2>
-				<p>Phone: 402-370-6545</p>
-                <p>Email: <a href="mailto:anthony@papousek.org">anthony@papousek.org</a>	
-			</div>
+				<h1 id="questions">Questions?</h1>
+            <div class="grid_6 alpha">
+            <p>Rick Alloway</p>
+			<p>General Manager</p>
+			<p>90.3 KRNU & KRNU2</p
+            <a href="mailto:ralloway1@unl.edu">ralloway1@unl.edu</a>
+            </div>
+                        <div class="grid_6 omega">
+            <p>Ford Clark</p>
+			<p>Station Manager</p>
+			<p>90.3 KRNU & KRNU2</p
+            <a href="mailto:fclark4@unl.edu">fclark4@unl.edu</a>
+            </div>
 
 		</div>
 	</div>
@@ -109,8 +82,8 @@
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
 	<script type="text/javascript" src="js/scripts.js"></script>
-    <script src="js/html5player.js"></script>
-        </script>
+    <script type="text/javascript" src="js/krnu.js"></script>
+    <script type="text/javascript" src="js/krnu2.js"></script>
 	<!-- <script type="text/javascript" src="js/scripts.min.js"></script> -->
 </body>
 </html>

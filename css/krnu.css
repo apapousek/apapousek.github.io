@@ -1,0 +1,359 @@
+/* Global */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #9ac8c6;
+	background-image:url('../images/earth.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+img {
+	max-width: 100%;
+}
+a:link {
+	color: #9ac8c6;
+	text-decoration: none;
+}
+a:hover {
+	color: #9ac8c6;
+	text-decoration: none;
+}
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+/* Navigation */
+
+.menu {
+	position:fixed;
+	top:0px;
+	width:100%; 
+	height:auto; 
+	z-index:100;
+background: -moz-linear-gradient(top, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 56%, rgba(0,0,0,0.91) 60%, rgba(102,102,102,0.89) 61%, rgba(51,51,51,0.85) 63%, rgba(0,0,0,0.8) 65%, rgba(0,0,0,0) 99%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,1)), color-stop(56%,rgba(0,0,0,1)), color-stop(60%,rgba(0,0,0,0.91)), color-stop(61%,rgba(102,102,102,0.89)), color-stop(63%,rgba(51,51,51,0.85)), color-stop(65%,rgba(0,0,0,0.8)), color-stop(99%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 56%,rgba(0,0,0,0.91) 60%,rgba(102,102,102,0.89) 61%,rgba(51,51,51,0.85) 63%,rgba(0,0,0,0.8) 65%,rgba(0,0,0,0) 99%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 56%,rgba(0,0,0,0.91) 60%,rgba(102,102,102,0.89) 61%,rgba(51,51,51,0.85) 63%,rgba(0,0,0,0.8) 65%,rgba(0,0,0,0) 99%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 56%,rgba(0,0,0,0.91) 60%,rgba(102,102,102,0.89) 61%,rgba(51,51,51,0.85) 63%,rgba(0,0,0,0.8) 65%,rgba(0,0,0,0) 99%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,1) 56%,rgba(0,0,0,0.91) 60%,rgba(102,102,102,0.89) 61%,rgba(51,51,51,0.85) 63%,rgba(0,0,0,0.8) 65%,rgba(0,0,0,0) 99%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+#logo {
+	text-align: \center;
+}
+#name {
+	font-family:Xolonium;
+	font-size: 2.15em;
+	letter-spacing: -3px;
+	margin-top:0.25em;
+	color:white;
+	font-weight: 700
+}
+#nav {
+	text-align: right;
+	margin-top: 1em;
+}
+.navigation{
+	float: right;
+	list-style: none;
+	margin: 0;
+}
+.navigation li{
+	float: left;
+	padding:0 0 0 50px;
+}
+.navigation li:hover{
+	cursor:pointer;
+	color: #a9d3d0;
+}
+
+.navigation .active{
+	cursor:pointer;
+	color: #f68f67;
+	font-weight:bold;
+}
+
+
+
+
+/* General Slides */ 
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	height:auto;
+	position: relative;
+	padding:140px 0;
+}
+
+h2 {
+	text-align:center;
+}
+
+
+/* Slide 1 */ 
+
+#slide1{
+	background-image:url('images/space.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#slide1 h1 {
+	text-align:center;
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:white;
+	font-weight: 700;
+	background-image:url('images/space.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#slide1 h2 {
+	font-size: 2em;
+	color: #8a8683;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+
+
+
+/* Slide 2 */ 
+
+#slide2{
+	background-image:url('../images/krnu.png');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:black;
+
+	color:#ffffff;
+}
+#slide2 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+}
+#slide2 h2 {
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+
+
+
+/* Slide 3 */ 
+
+#slide3{
+	background-image:url('../images/earth.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#slide3 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#8a8683;
+	font-weight: 700;
+}
+#slide3 h2 {
+	font-size: 2em;
+	color: #8a8683;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+#test{
+	background-color:#bde2df;
+	color:#ffffff;
+	text-align:center;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+
+
+
+/* Slide 4 */
+
+#slide4{
+	background-image:url('../images/space.png');
+	background-color:black;
+	background-position:center;
+	background-repeat:no-repeat;
+	color:#ffffff;
+}
+#slide4 h1 {
+	font-size: 3.8em;
+	letter-spacing: -3px;
+	line-height: 0px;
+	color:#ffffff;
+	font-weight: 700;
+}
+#slide4 h2 {
+	font-size: 2em;
+	color: #ffffff;
+	line-height: 0px;
+	padding-bottom:20px;
+	font-weight: 400;
+}
+
+
+
+
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#nav {
+	width:100%;
+	text-align:center;
+	margin:10px 0;
+}
+
+.navigation{
+	width: 100%;
+	float: center;
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.navigation li{
+	float: left;
+	width:25%;
+	padding:0;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:150px 0;
+}
+
+#decorative {
+	display:none;
+}
+
+#content {
+	text-align:center;
+	width:100%;
+}
+
+#slide1 h1 {
+	line-height: 1em;
+}
+#slide1 h2 {
+	line-height: 1em;
+}
+#slide2 h1 {
+	line-height: 1em;
+}
+#slide2 h2 {
+	line-height: 1em;
+}
+#slide3 h1 {
+	line-height: 1em;
+}
+#slide3 h2 {
+	line-height: 1em;
+}
+#slide4 h1 {
+	line-height: 1em;
+}
+#slide4 h2 {
+	line-height: 1em;
+}
+
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#nav {
+	width:100%;
+	margin:5px 0;
+}
+
+.navigation{
+	width: 100%;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.navigation li{
+	float: left;
+	width:25%;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:150px 0;
+}
+
+
+#slide1 h1 {
+	line-height: 1em;
+}
+#slide1 h2 {
+	line-height: 1em;
+}
+#slide2 h1 {
+	line-height: 1em;
+}
+#slide2 h2 {
+	line-height: 1em;
+}
+#slide3 h1 {
+	line-height: 1em;
+}
+#slide3 h2 {
+	line-height: 1em;
+}
+#slide4 h1 {
+	line-height: 1em;
+}
+#slide4 h2 {
+	line-height: 1em;
+}
+
+#krnu {
+	text-align:center;
+}
+#krnu2 {
+	tex-align:center;
+}
+#questions {
+	text-align:center;
+}
